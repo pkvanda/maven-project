@@ -22,12 +22,17 @@
   </modules>
 
   <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
-  </distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-31-185-releases</name>
+        <url>http://18.237.92.237:8081/artifactory/jenkins-releaase</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-31-185-snapshots</name>
+        <url>http://18.237.92.237:8081/artifactory/jenkins-releaase</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <build>
     <plugins>
