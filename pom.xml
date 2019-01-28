@@ -25,12 +25,12 @@
     <repository>
         <id>central</id>
         <name>ip-172-31-16-77-releases</name>
-        <url>http://35.166.59.144:8081/artifactory/jenkins-snapshot</url>
+        <url>http://localhost:8081/repository/jenkins-snapshot/</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-16-77-snapshots</name>
-        <url>http://35.166.59.144:8081/artifactory/jenkins-snapshot</url>
+        <url>http://localhost:8081/repository/jenkins-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
 
